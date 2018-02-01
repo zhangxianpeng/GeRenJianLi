@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ProjectsActivity">
+
+        <com.qmuiteam.qmui.widget.QMUITopBar
+            android:id="@+id/toolbar_projects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_tab_bar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_white"
+            android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_anjilu"
+                    style="@style/tab_menu_item"
+                    android:drawableTop="@drawable/tab_menu_channel"
+                    android:text="@string/anjilu" />
+
+                <RadioButton
+                    android:id="@+id/rb_onecard"
+                    style="@style/tab_menu_item"
+                    android:drawableTop="@drawable/tab_menu_message"
+                    android:text="@string/onecard" />
+
+                <RadioButton
+                    android:id="@+id/rb_smarthome"
+                    style="@style/tab_menu_item"
+                    android:drawableTop="@drawable/tab_menu_better"
+                    android:text="@string/smarthome" />
+
+                <RadioButton
+                    android:id="@+id/rb_tpms"
+                    style="@style/tab_menu_item"
+                    android:drawableTop="@drawable/tab_menu_setting"
+                    android:text="@string/tpms" />
+
+        </RadioGroup>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rg_tab_bar"
+            android:layout_below="@+id/toolbar_projects" />
+
+</RelativeLayout>

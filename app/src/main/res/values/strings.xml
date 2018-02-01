@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">简历</string>
+    <string name="label">About Me</string>
+    <string name="name">张现鹏</string>
+    <string name="englishname">Scofield Zhang</string>
+    <string name="profile">行走在钻研的路上，一路向前...</string>
+    <string name="position">【Android工程师】</string>
+    <string name="location">深圳龙华新区</string>
+    <string name="age">24岁</string>
+    <string name="salary">期望薪资</string>
+    <string name="worktime">工作年限</string>
+    <string name="aboutme">关于我</string>
+    <string name="content_aboutme">成就自我，拥抱开源</string>
+    <string name="project">项目</string>
+    <string name="content_resume">GitHub: https://github.com/zhangxianpeng</string>
+    <string name="works">工作</string>
+    <string name="content_works">深圳齐顶电子科技有限公司\n东莞市裕勤科技有限公司</string>
+    <string name="skill">技能</string>
+    <string name="content_skill">Eclipse\nAndroid Studio</string>
+    <string name="telephone">联系</string>
+    <string name="content_telephone">电话：15277397109\n邮箱：302996244@qq.com</string>
+    <string name="test">测试</string>
+
+    <!--项目名称-->
+    <string name="tpms">胎压</string>
+    <string name="anjilu">安记录</string>
+    <string name="onecard">一卡通</string>
+    <string name="smarthome">智能家居</string>
+
+
+    <!--关于项目-->
+    <string name="res">职责描述</string>
+    <string name="env">开发环境</string>
+    <string name="factory">应用公司</string>
+    <string name="introduction">项目描述</string>
+
+    <!--关于安记录的信息-->
+    <string name="anjilu_env">Android Studio、PostMan</string>
+    <string name="anjilu_factory">中国南方电网广西兴安分公司</string>
+    <string name="anjilu_res">本人主要负责移动端应用的编码、上线和维护</string>
+    <string name="anjilu_introduction">本项目主要用于办公、私人账号密码的记录和管理，共涉及账号的添加修改查询和删除四大数据库操作模块以及账号的加密处理，其属于基于后台接口式的开发，主要使用OkHttp3+Retrofit的网络框架处理网络请求操作</string>
+
+    <!--关于one-card一卡通项目的信息-->
+    <string name="one_card_env">Android Studio  Android手机</string>
+    <string name="one_card_factory">创业项目</string>
+    <string name="one_card_res">本人主要负责移动端应用逻辑的编码、界面的优化以及bug的修复</string>
+    <string name="one_card_introduction">本项目主要用于实体商家推广线上消费而打造的一款app，其涵盖了百度地图（实现商家位置信息和商铺详情界面显示），微信支付，支付宝支付，扫码支付等支付方式，第三方平台登陆实现用户信息多元化，UI设计上采用了validation表单验证框架，Qmui android开发框架，逻辑上采用MVP的架构模式</string>
+
+    <!--关于smarthome项目的信息-->
+    <string name="smarthome_env">Android Studio</string>
+    <string name="smarthome_factory">毕业设计---智能家居系统</string>
+    <string name="smarthome_res">本人主要负责移动端应用的编码和测试</string>
+    <string name="smarthome_introduction">本项目主要用于办公、私人账号密码的记录和管理，共涉及账号的添加修改查询和删除四大数据库操作模块以及账号的加密处理，其属于基于后台接口式的开发，主要使用OkHttp3+Retrofit的网络框架处理网络请求操作</string>
+
+    <!--关于tpms项目的信息-->
+    <string name="tpms_env">Eclipse、android车机装置</string>
+    <string name="tpms_factory">深圳齐顶电子科技</string>
+    <string name="tpms_res">本人主要负责移动端应用的编码、使用和维护</string>
+    <string name="tpms_introduction">本项目主要应用于装载在汽车上的android车机装置，原理主要是应用接收获取到控制中心发送的包含汽车轮子的数据信息的广播，判断轮胎是否存在异常情况（高低气压、传感器电量过低等异常），然后及时的通知用户进行车辆检修，应用界面采用了fragment+RadioButton的方式展示，基于硬件系统协议开发的app涵盖了车轮学习、车轮调换等指令的操作</string>
+
+
+    <!--<string name="anjilu_env">Android Studio  PostMan</string>-->
+    <!--<string name="anjilu_factory">中国南方电网广西兴安分公司</string>-->
+    <!--<string name="anjilu_res">本人主要负责移动端应用的编码、上线和维护</string>-->
+    <!--<string name="anjilu_introduction">本项目主要用于办公、私人账号密码的记录和管理，共涉及账号的添加修改查询和删除四大数据库操作模块以及账号的加密处理，其属于基于后台接口式的开发，主要使用OkHttp3+Retrofit的网络框架处理网络请求操作</string>-->
+
+    <!--<string name="anjilu_env">Android Studio  PostMan</string>-->
+    <!--<string name="anjilu_factory">中国南方电网广西兴安分公司</string>-->
+    <!--<string name="anjilu_res">本人主要负责移动端应用的编码、上线和维护</string>-->
+    <!--<string name="anjilu_introduction">本项目主要用于办公、私人账号密码的记录和管理，共涉及账号的添加修改查询和删除四大数据库操作模块以及账号的加密处理，其属于基于后台接口式的开发，主要使用OkHttp3+Retrofit的网络框架处理网络请求操作</string>-->
+
+    <!--自我评价-->
+    <string name="mypingjia">学习能力强：喜欢自学，钻研各种最新的主流框架，混迹于各大技术交流群，主流技术学习网站；\n 熟悉如csdn,github,stackoverflow，掘金,推库等网站 \n 较强的沟通能力和团队意识、具有独立解决问题的能力。</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about_me">AboutMeActivity</string>
+
+</resources>
